@@ -25,25 +25,20 @@ int main()
         }
         else 
         {
-            if(ch[count] == 32)
+            if(ch[count] == 32) //space ascii
             {
             a=count;	
             c++;
-            }
-            
+            }            
         }
-
         count++;
     }
     if(c==1){
     	 ch[a+c]=ch[a+c]-32;
-	}
-	
+	}	
 	else
 	{
 		 ch[a+c-1]=ch[a+c-1]-32;
-	}
-    
-   
+	}   
     printf("%s", ch);
 }

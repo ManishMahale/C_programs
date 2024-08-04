@@ -21,6 +21,6 @@ int main()
         if (ch[i] != k)
         {
             printf("\n%c----%d", ch[i], count);
-        }
+        }      
     }
 }
